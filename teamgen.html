@@ -35,7 +35,7 @@
       <input type="text" class="form-control" placeholder="Name" aria-label="Recipient's username" aria-describedby="button-addon2" >
       <div class="input-group-append">
         <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="addName()">Button</button>
-        <input id="rand_options_grp" type="number" name="grp" value="4">
+        <input id="group-number" type="number" name="grp" value="4" onclick="genTeams()" >
       </div>
     </div>
     <div>
@@ -47,7 +47,7 @@
       <ul class="list-group">
         
       </ul>
-      <button type="button" class="btn btn-primary btn-lg">Assign</button>
+      <button type="button" class="btn btn-primary btn-lg" onclick="assignName()">Assign</button>
     </div>
     <div>
       <div class="row">
@@ -55,6 +55,7 @@
         <div class="col"> <h1>Teams</h1> </div>
         <div class="col"></div>
     </div>
+    <div class="Teams"></div>
     </div>
 
     
